@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 450px;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: "Outfit";
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.attribution {
+    margin: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 28%, 76%);
+}
+.container{
+    width: 450px;
+    border-radius: 1.5rem;
+    background-color: hsl(216, 50%, 16%);
+}
+.container article
+{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+h2{
+    font-weight: 600;
+    letter-spacing: .1px;
+    font-size: 1.6rem;
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: hsl(214, 11%, 49%);
+    font-size: 1.4rem;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+hr{
+    height: .1px;
+    color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 10%;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+ul{
+    font-size: 1.3rem;
+    list-style: none;
+}
+.days
+{
+    font-size: 1.3rem;
+    color: hsl(214, 11%, 49%);;
+}
+.container main img{
+    border-radius: 40px;
+    padding: 30px 30px 10px 30px;
+}
+.taglist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h5{
+    font-size: 1.2rem;
+    opacity: 80%;
+    padding-top: 13px;
+}
+.container article .taglist img{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.container article .list .price img{
+    padding-right: 5px;
+    padding-top: 2px;
+}
